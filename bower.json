@@ -1,0 +1,24 @@
+{
+  "name": "susy starter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/artbychenko/backbone-marionette-gulp-starter",
+  "authors": [
+    "artbychenko <artbychenko@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.5",
+    "breakpoint-sass": "~2.6.1",
+    "normalize-scss": "~3.0.3"
+  }
+}
