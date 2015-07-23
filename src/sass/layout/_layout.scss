@@ -1,0 +1,48 @@
+
+.container {
+    background-color: #fbeecb;
+    @include container;
+    min-width: 320px;
+    height: 100%;
+    min-height: 100%;
+    header {
+        @include span(8 of 10);
+        margin: 0 span(1 of 10);
+        text-align: left;
+        padding: gutter(10);
+        border-bottom: 1px solid black;
+        @include clearfix();
+        strong:hover {
+            color: #0040D0;
+        }
+    }
+    footer {
+        @include span(8 of 10);
+        margin: 0 span(1 of 10);
+        text-align: right;
+        padding: gutter(10);
+        border-top: 1px solid black;
+    }
+}
+#contacts {
+    @include span(8 of 10);
+    @include clearfix();
+    padding: gutter(10);
+    margin: 0 span(1 of 10);
+    table {
+        width: 100%;
+    }
+    th, td{
+        padding: 5px;
+        text-align: left;
+    }
+    tbody tr:hover{
+        background-color: #98daca;
+    }
+    tbody tr.js-blue {
+        background-color: desaturate(#98daca, 25%);
+        &:hover{
+            background-color: darken(desaturate(#98daca, 25%),10%);
+        }
+    }
+}

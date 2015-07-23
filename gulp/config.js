@@ -14,6 +14,9 @@ module.exports = {
             ]
         }
     },
+    jasmine: {
+        src: src + '/javascript/app/jasmineTest/**/*.spec.js'
+    },
     sass: {
         src: src + '/sass/**/*.{sass,scss}',
         dest: dest + '/css',

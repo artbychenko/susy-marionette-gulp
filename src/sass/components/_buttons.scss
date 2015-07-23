@@ -7,18 +7,20 @@ button {
     border: none;
     padding: 0;
 }
-
-.btn {
+.button {
+    font: inherit;
+    font-size: small;
+    margin: 0;
+    outline: 0;
+    color: black;
+    padding: 1px 6px;
+    text-decoration: none;
     display: inline-block;
-
-    &:hover {}
-
-    &:focus {}
-
-    &.active,
-    &:active {}
-
-    &.disabled,
-    &[disabled] {}
-
+    background-color: #98daca;
+    border: none;
+    border-radius: 2px;
+    &:hover {
+        background-color: #fbeecb;
+        color: #0040D0;
+    }
 }
